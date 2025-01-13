@@ -19,5 +19,20 @@ Job_Growth_Projection	- object
 
 Rows: There are around 500 rows of data.
 
+1. Removing the Rows that have null values since they would not be of greater use in teh analysis. Hence, removing the rows. 
+2. Observation 1: Get all the rows where the better AI adaptation level is positively affecting the job growth prediction 
+       Analysis: For this scenario I am considering the rows where Job_Growth_Projection is equal to 'Growth' and 'Stable'
+                 Also, the AI_Adoption_Level can be 'Medium' or 'High' . 
+3. Observation 2: Get all the rows based on indsutry and the Job titles involved with the industry and the skills required for each job
+      Analysis: For this scenario I will be grouping all the rows based on the Industry and Jobs and then get the skills assigned to each job
+4. Observation 3: Company size impacting the adoption of remote work and salaries
+       Analysis: For this scenario I will be grouping the rows based on the Company size and find the mean salary for each size and the number
+       of remote friendly roles available for each company size
+5. Observation 4: What is the relationship between AI adoption level, company size, and job growth projections
+       Analysis: For this scenario I would be grouping the rows based on AI adoption level, company size, job growth projections
+6. Observation 5: Which industries and job titles are the most remote-friendly, and do they offer competitive salaries
+       Analysis: I am going to get the rows based on the remote friendly nature of the role. I would also find the mean/Average of the Salaries that belong
+       to a specific Job and Industry. 
+   
 
 
